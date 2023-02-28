@@ -1,11 +1,34 @@
 body {
-
+    background-color: #190047;
 }
 
 .launch {
-
+    color: white;
 }
 
 .recovery {
+    color: white;
+    font-family: Genos;
+    src: url(Genos-italic-VariableFont_wght)
+}
 
+.footer {
+    background-color: rgb(170, 170, 170);
+    color:rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.link{
+    background-color:#FFFFFF;
+    color:black;
+    opacity:50%;
+    display:flex;
+    justify-content:space-around;
+    margin-top:6%;
+    text-decoration:none;
 }
